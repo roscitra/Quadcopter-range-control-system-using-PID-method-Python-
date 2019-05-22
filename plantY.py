@@ -73,8 +73,9 @@ class Position():
         end_time=0.0
         totaltime=0.0
         
-        #input posisi
-        pid.SetPoint = 10
+        #input range ==================================================
+        pid.SetPoint = 10 #you can input negative number to move in the opposite direction
+        #===============================================================
         while pid.SetPoint is not None:
             pid.update(feedback)
             self.output = pid.output
