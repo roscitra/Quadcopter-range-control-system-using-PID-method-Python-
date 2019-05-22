@@ -3,10 +3,10 @@ I implemented this code in AR Drone 2.0 using the robot platform (ROS: Robot Ope
 
 Note:
 --
-ReadData.py: the code to subscribe the quadcopter sensor
-PID.py: the algorithm PID code
-PlantX.py and PlantY.py: system control code (Just run one of them)
-*the input is range (you can change the input on PlantX.py or PlantY.py)
+- ReadData.py: the code to subscribe the quadcopter sensor.
+- PID.py: the algorithm PID code.
+- PlantX.py and PlantY.py: system control code (Just run one of them).
+*the input is range (you can change the input on PlantX.py or PlantY.py).
 *ReadData and PID must be run first,then run PlantX or PlantY
 
 
